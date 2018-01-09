@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  div(style='max-width: 642px; padding: 20px; margin:auto;')
+    h1 Conversation Echo Server
+    p
+      | This is a simple echo server that takes the text input, sends it to the server.
+      | The server then will respond, first to say when it will echo back the text
+      | and then after that period has elapsed will echo the actual text back.
+    p
+      | Note that the messages are returned by a random time delay and that effects the
+      | returned order
+    a(href="/longpoll/conversation") Example
