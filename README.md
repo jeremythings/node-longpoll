@@ -13,4 +13,4 @@ To install and run, download this to a folder of your choice then run:
 npm install
 npm start
 ```
-You can then browse using http or https on the ports set.
+You can then browse using http on port 3000.
